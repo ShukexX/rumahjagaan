@@ -1,0 +1,44 @@
+name: flutter_app
+description: DGH Care Centre — Care, Comfort, Dignity.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ^3.9.2
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: 2.5.3
+  url_launcher: 6.3.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Cormorant
+      fonts:
+        - asset: assets/fonts/CormorantGaramond-normal-500.ttf
+          weight: 500
+        - asset: assets/fonts/CormorantGaramond-normal-600.ttf
+          weight: 600
+        - asset: assets/fonts/CormorantGaramond-normal-700.ttf
+          weight: 700
+        - asset: assets/fonts/CormorantGaramond-italic-600.ttf
+          weight: 600
+          style: italic
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-normal-400.ttf
+          weight: 400
+        - asset: assets/fonts/Manrope-normal-500.ttf
+          weight: 500
+        - asset: assets/fonts/Manrope-normal-600.ttf
+          weight: 600
+        - asset: assets/fonts/Manrope-normal-700.ttf
+          weight: 700
+        - asset: assets/fonts/Manrope-normal-800.ttf
+          weight: 800
