@@ -1,0 +1,10 @@
+.git
+.gitignore
+.dart_tool
+.pub-cache
+build
+coverage
+android/.gradle
+android/.idea
+android/app/build
+*.log
